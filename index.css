@@ -16,7 +16,20 @@ body{
 }
 #goodbye{
     top: 250px;
-    left: 50%;
+    left: calc(50% + 170px);
+}
+#china-music{
+    top: 250px;
+    left: calc(50% - 170px);
+}
+#china-music{
+    background-color: red;
+    filter: drop-shadow(0 0 20px rgb(255, 25, 25));
+    color: white;
+}
+#china-music .tag{
+    background-color: yellow;
+    color: black;
 }
 .musics{
     position: absolute;
@@ -24,7 +37,7 @@ body{
     background-color: rgb(169, 255, 158);
     width: 300px;
     height: 150px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     display: flex;
     justify-content: center;

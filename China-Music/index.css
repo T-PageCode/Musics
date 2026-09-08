@@ -1,7 +1,6 @@
 body{
     background-color: rgb(255,255,255);
     user-select: none;
-    height: 1430px;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -24,11 +23,11 @@ body{
     top: 100px;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 60px;
+    font-size: 50px;
 }
 #music-text{
     position: absolute;
-    top: 820px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -55,33 +54,34 @@ button{
     width: 160px;
     height: 35px;
     border-radius: 12.5px;
-    background-color: rgb(156, 255, 161);
+    background-color: rgb(255, 0, 0);
+    color: white;
     font-size: 17px;
     border: none;
     transition: background-color 0.3s ease;
 }
 button:hover{
-    background-color: rgb(105, 255, 112);
+    background-color: rgb(255, 47, 47);
 }
 button:active{
-    background-color: rgb(38, 255, 49);
+    background-color: rgb(255, 76, 76);
 }
 @media screen and (max-width: 600px) {
     #main-text{
-        font-size: 30px;
+        font-size: 20px;
     }
     #date{
-        left: calc(50% - 70px);
+        left: calc(50% - 60px);
         top: 220px;
         font-size: 17px;
     }
     #author{
-        left: calc(50% + 70px);
+        left: calc(50% + 90px);
         top: 220px;
         font-size: 17px;
     }
     #music-text{
-        top: 720px;
+        top: 350px;
         font-size: 17px;
     }
 }
