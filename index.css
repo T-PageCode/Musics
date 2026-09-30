@@ -18,6 +18,10 @@ body{
     top: 250px;
     left: calc(50% + 170px);
 }
+#xuegongfu{
+    top: 450px;
+    left: calc(50% - 170px);
+}
 #china-music{
     top: 250px;
     left: calc(50% - 170px);
